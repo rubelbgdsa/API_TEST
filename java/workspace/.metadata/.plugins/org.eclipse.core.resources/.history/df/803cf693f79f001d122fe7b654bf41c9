@@ -1,0 +1,52 @@
+package class04;
+
+public class looping_example {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		//req: print 3 times MicroTech
+		
+		//for (start 1; ends at 10; 1 increment
+		
+		
+		//int i; = i variable declaration
+		//i = 1; assignment statement
+		
+		
+		for (int i=1;    i<=50; i++ )
+			System.out.println("MicroTech");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

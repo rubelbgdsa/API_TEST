@@ -1,0 +1,13 @@
+package class04;
+
+public class example {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		printCitynTimes(1, "123 Test St");
+	}
+    public static void printCitynTimes(int t, String name) {
+    	for (int i=1; i<=t; i++)
+    		System.out.println(name);
+    }
+}

@@ -1,0 +1,38 @@
+package class04;
+
+public class method {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//req: prrint dallas 5 times 
+		printCityName5Times("dallas");
+		
+		//req: print tampa 5 times 
+		printCityName5Times("tampa");
+		
+		//req: print arizona 5 times
+		printCityName5Times("arizona");
+		
+		//req: print dallas 5 times 
+		printCityName5Times("dallas");
+		
+		//req print tampa 5 times
+		printCityName5Times("tampa");
+		
+		//req: print arizona 5 times
+		printCityName5Times("arizona");
+		
+
+	}//main
+                     //must be camel casing
+	public static void printCityName5Times(String city) {
+		for (int i=1; i<=5; i++)    //method body
+			System.out.println("city");
+	}
+
+	
+	
+	
+
+}

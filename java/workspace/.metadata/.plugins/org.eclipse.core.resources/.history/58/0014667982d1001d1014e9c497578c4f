@@ -1,0 +1,17 @@
+package interf;
+
+public class MainDemo {
+
+	public static void main(String[] args) {
+
+       bike b;
+       b = new bike();
+       b.changeGear(3);
+       b.speedUp(70);
+       b.applyBrakes(10);
+       
+       b.display();
+
+	}
+
+}

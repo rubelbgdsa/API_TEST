@@ -1,0 +1,14 @@
+package class02;
+
+public class Hello_World {
+
+	public static void main(String[] args) {
+		System.out.println("My name is Aqib");
+		System.out.println("drink\\\"water\"");
+		
+		
+		
+		
+	}//main
+
+}//class

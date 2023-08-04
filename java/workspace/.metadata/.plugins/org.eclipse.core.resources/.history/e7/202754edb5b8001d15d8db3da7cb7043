@@ -1,0 +1,14 @@
+package class33;
+
+public class MainFirst {
+
+	public static void main(String[] args) {
+	 First num1 = new First();
+	 First num2 = new First();
+	 num1.x = 35;
+	 
+	 System.out.println(num1.x);
+	 System.out.println(num2.x);
+	}
+
+}

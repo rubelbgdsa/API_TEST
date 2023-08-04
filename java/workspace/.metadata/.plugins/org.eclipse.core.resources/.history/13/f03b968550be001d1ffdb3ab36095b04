@@ -1,0 +1,17 @@
+package class33;
+
+public class MainAccount {
+
+	public static void main(String[] args) {
+		Car bmw;
+        bmw = new Car((long)12345678901234567L,(String)"BMW",(boolean)true);
+        System.out.println(bmw.getVIN());
+        System.out.println("Model is: " +bmw.getModel());
+        System.out.println("Navigator is: " +bmw.Navigator);
+		 
+		 
+	}
+
+
+
+}

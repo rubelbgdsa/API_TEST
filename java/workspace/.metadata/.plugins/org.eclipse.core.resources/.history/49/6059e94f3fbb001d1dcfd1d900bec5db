@@ -1,0 +1,26 @@
+package class33;
+
+public class MainEmployee {
+
+	public static void main(String[] args) {
+		Employee ketty;
+		 ketty= new Employee(123456789012L,"Ketty Kellar","9997771111","123 test drive, Font, NY 23111" ,888661234,"12/12/1979");
+		 System.out.println("id: " + ketty.id);
+		 System.out.println("name: " + ketty.name);
+		 System.out.println("phone: " + ketty.phone);
+		 System.out.println("address: " + ketty.address);
+		 System.out.println("ssn: " + ketty.ssn);
+		 System.out.println("dob: "+ ketty.dob);
+		 System.out.println();
+		 
+		 Employee ayesha;
+		 ayesha= new Employee(123456789013L,"Ayesha Ali","8881114444","333 Pit dr, Loton, PA 11232",111339876,"07/27/1989");
+		 System.out.println("id: " + ayesha.id);
+		 System.out.println("name: " + ayesha.name);
+		 System.out.println("phone: " + ayesha.phone);
+		 System.out.println("address: " + ayesha.address);
+		 System.out.println("ssn: " + ayesha.ssn);
+		 System.out.println("dob: "+ ayesha.dob);
+	}
+
+}

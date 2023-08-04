@@ -1,0 +1,29 @@
+package class33;
+
+public class Car {
+	  private long VIN;
+	    private String Model;
+	    boolean Navigator;
+	    Car(long VIN,String Model,boolean Navigator){
+	        this.VIN=VIN;
+	        this.Model=Model;
+	        this.Navigator=Navigator;
+	    }
+	     void setVIN (long VIN) {
+	      this.VIN = this.VIN;
+	     }
+	     long getVIN() {
+	     return VIN;
+	     }
+	     void setModel (String Model) {
+		      this.Model = this.Model;
+		     }
+		     String getModel() {
+		     return Model;
+		     }
+	
+			
+	
+}
+    
+

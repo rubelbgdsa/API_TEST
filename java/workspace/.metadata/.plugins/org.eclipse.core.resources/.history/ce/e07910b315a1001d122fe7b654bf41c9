@@ -1,0 +1,59 @@
+package class04;
+
+public class nested_statement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// req: if age is greater than 18 than print adult
+		// else print not adult
+		// if age is greater than 63 than print senior
+
+		// nested if
+		// if ( condition) {
+
+		// if (condition){
+		// }
+
+		// {
+
+//		int age;
+//
+//		age = 64;
+//
+//		if (age > 18) {
+//
+//			System.out.println("adult");
+//			if (age > 63)
+//				System.out.println("senior citizen");
+//
+//		}
+//
+//		else
+//			System.out.println("baby");
+
+//	If age is greater then 63 then print "Senior citizen" 
+		// if any senior citizen age is over 80 then print "No Tax"
+		// else print "Citizen"
+		
+		int age1;
+		
+		age1=83;
+		
+		if (age1 > 63) {
+			System.out.println("senior citizen");
+			if (age1 > 80)
+				System.out.println("no tax");
+			
+		
+		}
+		
+		else
+			System.out.println("citizen");
+		
+		
+		
+
+	}
+
+}

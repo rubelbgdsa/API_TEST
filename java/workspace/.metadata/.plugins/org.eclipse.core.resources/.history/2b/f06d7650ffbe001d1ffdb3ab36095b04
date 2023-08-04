@@ -1,0 +1,17 @@
+package class33;
+
+public class MainFruit {
+
+	public static void main(String[] args) {
+		Employee happy;     
+        
+	     happy = new Employee("Happy",30,2567);
+	         System.out.println(happy.getEmpName());
+	         System.out.println(happy.getEmpAge()); 
+	         System.out.println(happy.getEmpSSN()); 
+		 
+	}
+
+
+
+}

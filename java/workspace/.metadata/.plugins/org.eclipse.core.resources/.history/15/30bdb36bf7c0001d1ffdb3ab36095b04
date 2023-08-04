@@ -1,0 +1,33 @@
+package class33;
+
+public class Fruit {
+    private String empName;
+    private int empAge;
+    private int empSSN;
+    Employee(String empName,int empAge,int empSSN){
+        this.empName=empName;
+        this.empAge=empAge;
+        this.empSSN=empSSN;
+    }   
+       void setEmpName(String empName) {
+    	 this.empName=empName;
+     }
+     String getEmpName() {
+    	 return this.empName;
+     }
+       void setEmpAge(int empAge) {
+    	 this.empAge=empAge;
+     }
+     int getempAge() {
+    	 return this.empAge;
+     }
+      void setEmpSSN(int empSSN) {
+    	 this.empSSN=empSSN;
+     }
+     int getEmpSSN() {
+         return this.empSSN;
+     }
+	
+}
+    
+

@@ -1,0 +1,61 @@
+package class04;
+
+public class switch_examples {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     
+		
+
+		int day;
+		day=8;   // -1 0  1 2 3 4 5 6 7      8 9 14
+		switch (day) {
+		case 1:
+			System.out.println("Mon");
+			break;// to exit from the switch statement
+		case 2:
+			System.out.println("Tue");
+			break;
+		case 3:
+			System.out.println("Wed");
+			break;
+		case 4:
+			System.out.println("Thu");
+			break;
+		case 5:
+			System.out.println("Fri");
+			break;
+		case 6:
+			System.out.println("Sat");
+			break;
+		case 7:
+			System.out.println("Sun");
+			break;
+	    default:
+	    	System.out.println("Invalid day");
+	    	
+	    	
+		
+		
+		
+		}
+		day = 7;
+		if(day==1)
+			System.out.println("Mon");
+		else if(day==2) 
+			System.out.println("Tue");
+		else if(day==3) 
+			System.out.println("Wed");
+		else if(day==4)
+			System.out.println("Thu");
+		else if(day==5)
+			System.out.println("Fri");
+		else if(day==6)
+			System.out.println("Sat");
+		else if(day==7)
+			System.out.println("Sun");
+		else 
+		    System.out.println("invalid day");
+	}
+
+}

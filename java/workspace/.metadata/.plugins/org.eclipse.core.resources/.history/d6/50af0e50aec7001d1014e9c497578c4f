@@ -1,0 +1,13 @@
+
+public class MainDemo {
+
+	public static void main(String[] args) {
+	  Checking checking;
+	  checking = new Checking("joe",1111,12.00);
+	    
+      System.out.println("name: "+ checking.name );
+      System.out.println("phone:" + checking.phone );
+      System.out.println("fee: " + checking.fee );
+	}
+
+}

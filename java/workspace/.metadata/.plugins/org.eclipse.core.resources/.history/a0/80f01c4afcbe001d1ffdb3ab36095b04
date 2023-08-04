@@ -1,0 +1,51 @@
+package class33;
+
+public class Employee {
+    private long accNum;
+    String accName;
+    private String accEmail;
+    private int accSSN;
+    private float accBalance;
+    private int accPIN;
+    Account(long accNum,String accName,String accEmail,int accSSN,float accBalance,int accPIN){
+        this.accNum=accNum;
+        this.accName=accName;
+        this.accEmail=accEmail;
+        this.accSSN=accSSN;
+        this.accBalance=accBalance;
+        this.accPIN=accPIN;   
+    }   
+       void setAccNum(long accNum) {
+    	 this.accNum=accNum;
+     }
+     long getAccNum() {
+    	 return this.accNum;
+     }
+       void setEmail(String accEmail) {
+    	 this.accEmail=accEmail;
+     }
+     String getEmail() {
+    	 return this.accEmail;
+     }
+      void setSSN(int accSSN) {
+    	 this.accSSN=accSSN;
+     }
+     int getSSN() {
+    	 return this.accSSN;
+     }
+      void setBalance(float accBalance) {
+    	 this.accBalance=accBalance;
+     }
+     float getBalance() {
+    	 return this.accBalance;
+     }
+       void setPIN(int accPIN) {
+    	 this.accPIN=accPIN;
+     }
+     int getPIN() {
+    	 return this.accPIN;
+     }
+	
+}
+    
+

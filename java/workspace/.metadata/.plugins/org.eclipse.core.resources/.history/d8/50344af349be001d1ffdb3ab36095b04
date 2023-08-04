@@ -1,0 +1,17 @@
+package class33;
+
+public class MainCar {
+
+	public static void main(String[] args) {
+		Car bmw;
+        bmw = new Car("12345678901234567","BMW",true);
+        System.out.println(bmw.getVIN());
+        System.out.println("Model is: " +bmw.Model);
+        System.out.println("Navigator is: " +bmw.Navigator);
+		 
+		 
+	}
+
+
+
+}

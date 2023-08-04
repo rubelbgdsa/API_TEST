@@ -1,0 +1,8 @@
+             //how to connect account with checking 
+public class Checking extends Account{ //child class
+  double fee;
+  Checking(String name, int phone, double fee){
+	  super(name,phone); //super means main class
+	  this.fee=fee;
+  }
+}

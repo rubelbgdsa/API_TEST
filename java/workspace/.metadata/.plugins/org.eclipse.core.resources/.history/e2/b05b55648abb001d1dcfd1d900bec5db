@@ -1,0 +1,17 @@
+package class33;
+
+public class MainPerson {
+
+	public static void main(String[] args) {
+		Person maria;
+		 maria= new Person(1,"Maria Rahaman",11111111);
+		 System.out.println("id: " + maria.id);
+		 System.out.println("name: " + maria.name);
+		 System.out.println("ssn: " + maria.ssn);
+		 
+
+		 
+		 
+	}
+
+}

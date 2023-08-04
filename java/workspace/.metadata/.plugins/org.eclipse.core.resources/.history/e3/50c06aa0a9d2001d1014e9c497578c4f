@@ -1,0 +1,24 @@
+package interfaceQuiz16;
+
+public class MainDemo {
+
+	public static void main(String[] args) {
+		
+		rectangle rect;
+		rect = new rectangle(5, 7);
+		rect.setHeight(15);
+        rect.setWidth(10);
+        System.out.println("Height of rectangle:"+rect.getHeight());
+        System.out.println("width of rectangle:"+rect.getWidth());
+        System.out.println("Area of the rectangle: "+rect.getArea());
+        System.out.println("Perimeter of the rectangle: "+rect.perimeter());
+        
+        circle C;
+        C = new circle(9);
+        C.setRadius(6);
+        System.out.println("Radius of the circle: "+C.getRadius());
+        System.out.printf("Area of the circle: "+String.format("%.2f", C.getArea()));
+        System.out.println("Perimeter of the circle: "+C.perimeter());
+	}
+
+}

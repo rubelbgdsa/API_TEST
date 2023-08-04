@@ -1,0 +1,38 @@
+package class33;
+
+public class Account {
+	 int accId;
+	    String accName;
+	    int accPhone;
+	    private int accSSN;
+	    private String accDOB;
+	    private int accPIN;
+	    Account(int accId, String accName,int accPhone,int accSSN,String accDOB,int accPIN){
+	        this.accId=accId;
+	        this.accName=accName;
+	        this.accPhone=accPhone;
+	        this.accSSN=accSSN;
+	        this.accDOB=accDOB;
+	        this.accPIN=accPIN;   
+	    }   
+	       void setSsn(int accSSN) {
+	    	 this.accSSN=accSSN;
+	     }
+	     int getSsn() {
+	    	 return this.accSSN;
+	     }
+	       void setDob(String accDOB) {
+	    	 this.accDOB=accDOB;
+	     }
+	     String getDob() {
+	    	 return this.accDOB;
+	     }
+	       void setPin(int accPIN) {
+	    	 this.accPIN=accPIN;
+	     }
+	     int getPin() {
+	    	 return this.accPIN;
+     }
+}
+    
+

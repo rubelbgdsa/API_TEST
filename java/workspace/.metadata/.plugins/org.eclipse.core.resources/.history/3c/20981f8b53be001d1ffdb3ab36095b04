@@ -1,0 +1,27 @@
+package class33;
+
+public class MainAccount {
+
+	public static void main(String[] args) {
+        Account rik;     
+        
+  rik = new Account(12345678901233L,"Rik","rik@gmail.com",1234,254.0f,1234);
+         System.out.println(rik.getAccNum());
+         System.out.println(rik.accName);
+         System.out.println(rik.getEmail());
+         System.out.println(rik.getSSN());
+         System.out.println(rik.getBalance());
+         System.out.println(rik.getPIN());
+         rik.setSSN(789);
+         rik.setBalance(456789.53f);
+         rik.setPIN(7890);
+         System.out.println("Acc SSN is: " + rik.getSSN());
+         System.out.println("AccBalance is: "+ rik.getBalance()); 
+         System.out.println("AccPIN is: "+ rik.getPIN()); 
+		 
+		 
+	}
+
+
+
+}

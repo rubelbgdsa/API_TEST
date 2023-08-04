@@ -1,0 +1,16 @@
+package class33;
+
+public class Product {
+	   int prodId;
+	    String prodName;
+	    double prodPrice;
+	    String prodCode;
+	    Product(int prodId, String accName,double prodPrice,String prodCode){
+	        this.prodId=prodId;
+	        this.prodName=prodName;
+	        this.prodPrice=prodPrice;
+	        this.prodCode=prodCode;
+	    }
+}
+    
+

@@ -1,0 +1,23 @@
+package class33;
+
+public class MainProduct {
+
+	public static void main(String[] args) {
+        Product pro;
+        pro = new Product(123,"Shoes",49.99,"PR040");
+        System.out.println(pro.prodId);
+        System.out.println(pro.prodName);
+        System.out.println(pro.prodPrice);
+        System.out.println(pro.prodCode);
+        System.out.println("After get");
+        System.out.println(getCode());
+		 
+		 
+	}
+
+	private static char[] getCode() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

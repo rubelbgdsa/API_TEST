@@ -1,0 +1,23 @@
+package class33;
+
+public class Employee {
+   int id;
+   String name;
+  private int ssn;
+
+   
+  Employee(int id, String name, int ssn){
+	   this.id = id;
+	   this.name = name;
+	   this.ssn = ssn;
+	   
+   }
+     void setSsn(int ssn) {
+    	 this.ssn=ssn;
+     }
+     int getSsn() {
+    	 return this.ssn;
+     }
+}
+    
+

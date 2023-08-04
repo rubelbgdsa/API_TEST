@@ -1,0 +1,19 @@
+package class33;
+
+public class MainAccount {
+
+	public static void main(String[] args) {
+		Account joe;
+        joe = new Account(1,"joe",123456,785,"1/1/1990",8521);
+        System.out.println("Id: " + joe.accId);
+        System.out.println("Name: " + joe.accName);
+        System.out.println("Phone: " + joe.accPhone);
+        System.out.println("Acc SSN is: " + joe.getSsn());
+        System.out.println("Acc DOB is: " + joe.getDob());
+        System.out.println("Acc pin is: "+ joe.getPin()); 
+
+		 
+		 
+	}
+
+}

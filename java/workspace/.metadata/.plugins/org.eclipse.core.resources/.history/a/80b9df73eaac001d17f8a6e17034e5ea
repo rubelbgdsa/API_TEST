@@ -1,0 +1,41 @@
+package class04;
+
+public class mathod_Overloading {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// req:  add two number 16 and 5 than print//
+		addNumbers(16,5);
+
+		   
+		// req: add two number 4.6 and 6 //
+		addNumbers(4.6,6);   
+		   
+		   
+		//req: add Three numbers 1,4 and 3 //
+        addNumbers(5,6.0,7);
+        
+        //req: add Four numbers 4 , 5.5, 6,7 print//
+		addNumbers(4,5.5,6,7);
+		   
+	}// main
+    
+	public static void addNumbers (int l, int n) { //method overloading
+		int result = l+n;                                           
+		System.out.println(result);
+	}
+	public static void addNumbers (int m, double n, int s) { //number of parameters are different
+		double result = m+n+s;
+		System.out.println(result);
+	}
+	public static void addNumbers (double m, int n) {//sequence of parameters difference
+		     double result = m+n;
+			System.out.println(result);
+	}
+	public static void addNumbers (int m, double n, int s, int o) {
+	     double result = m+n+s+o;
+		System.out.println(result);
+	}
+		
+}// class 

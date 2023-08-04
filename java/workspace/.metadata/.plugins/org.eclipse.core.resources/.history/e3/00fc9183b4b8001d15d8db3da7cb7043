@@ -1,0 +1,22 @@
+package class33;
+
+public class Person {
+    int Id;
+    String name;
+    String phone;
+    String accAddress1;
+    String accAddress2;
+    String accCity;
+    String accState;
+    short accZip;
+    Person (int Id, String name,String phone,String accAddress1,String accAddress2,String accCity,String accState,short accZip){
+        this.Id=Id;
+        this.name=name;
+        this.phone=phone;
+        this.accAddress1=accAddress1;
+        this.accAddress2=accAddress2;
+        this.accCity=accCity;
+        this.accState=accState;
+        this.accZip=accZip;
+    }
+}

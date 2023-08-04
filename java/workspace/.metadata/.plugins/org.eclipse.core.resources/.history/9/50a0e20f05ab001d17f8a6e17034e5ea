@@ -1,0 +1,28 @@
+package class04;
+
+public class mathod_Overloading {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// add two number 3 and 5 than print
+		addTwoNumbers(3,5);
+
+		   
+		// req: add two number 4 and 6 
+		addTwoNumbers(4,6);   
+		   
+		   
+		//req add two number 1 and 3 
+        addTwoNumbers(1,3);
+		   
+		   
+	}// main
+    
+	public static void addTwoNumbers (int m, int n) {
+		int result = m+n;
+		System.out.println(result);
+	}
+	
+	
+}// class 

@@ -1,0 +1,31 @@
+package class33;
+
+public class MainPerson {
+
+	public static void main(String[] args) {
+		   Person sam;
+           sam = new Person ((int)1,"Sam Harry",9722348713L,"6457 Eagla Road","Apt 3E","Jamaica","NY",(short)11432);
+           System.out.println("accId is: "+ sam.Id);
+           System.out.println("accName is: "+ sam.name);
+           System.out.println("accPhone is "+sam.phone);
+           System.out.println("accAddress1 is: "+sam.accAddress1);
+           System.out.println("accAddress2 is:"+sam.accAddress2);
+           System.out.println("accCity is:  "+ sam.accCity);
+           System.out.println("accState is: "+ sam.accState);
+           System.out.println("accZip is: "+ sam.accZip);
+           System.out.println();
+           
+           Person maria;
+           maria = new Person ((int)2,"Maria Alam",9172340001L,"123 Testa Drive","Unit 4","Irving","TX",(short)75062);
+           System.out.println("accId is: "+ maria.Id);
+           System.out.println("accName is: "+ maria.name);
+           System.out.println("accPhone is "+maria.phone);
+           System.out.println("accAddress1 is: "+maria.accAddress1);
+           System.out.println("accAddress2 is:"+maria.accAddress2);
+           System.out.println("accCity is:  "+ maria.accCity);
+           System.out.println("accState is: "+ maria.accState);
+           System.out.println("accZip is: "+ maria.accZip);
+
+	}
+
+}

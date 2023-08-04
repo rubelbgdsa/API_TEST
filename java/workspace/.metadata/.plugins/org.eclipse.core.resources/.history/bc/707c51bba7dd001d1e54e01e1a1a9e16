@@ -1,0 +1,29 @@
+import java.util.ArrayList;
+
+public class ArrayListEx {
+
+	public static void main(String[] args) {
+     ArrayList<String> names;
+     names = new ArrayList<String>();
+     
+     names.add("Joe");
+     names.add("Rahim");
+     names.add("David");
+     names.add(1,"Maria");
+
+     for (String a : names) {
+    	 System.out.println(a);
+     }
+     System.out.println();
+     names.remove(3);
+     for (String i : names) {
+    	 System.out.println(i);
+     }
+     System.out.println();
+     names.remove(2);
+     for (String n : names){
+    	 System.out.println(n);
+     }
+	}
+
+}

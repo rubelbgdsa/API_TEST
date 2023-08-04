@@ -1,0 +1,19 @@
+package class04;
+
+public class looping_example {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		//req: print 3 times MicroTech
+		
+		System.out.println("MicroTech");
+		System.out.println("MicroTech");
+		System.out.println("MicroTech");
+		System.out.println("MicroTech");
+		System.out.println("MicroTech");
+
+	}
+
+}

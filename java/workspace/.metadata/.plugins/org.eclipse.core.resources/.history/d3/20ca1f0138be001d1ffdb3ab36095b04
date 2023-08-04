@@ -1,0 +1,17 @@
+package class33;
+
+public class MainEmployee {
+
+	public static void main(String[] args) {
+		Employee maria;
+		 maria= new Employee(1,"Maria Rahaman",11111111);
+		 System.out.println("id: " + maria.id);
+		 System.out.println("name: " + maria.name);
+		 System.out.println("ssn: " + maria.getSsn() );
+		 
+
+		 
+		 
+	}
+
+}

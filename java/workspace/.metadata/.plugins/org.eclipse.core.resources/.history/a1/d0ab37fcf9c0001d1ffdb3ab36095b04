@@ -1,0 +1,21 @@
+package class4_array;
+
+public class Array {
+
+	public static void main(String[] args) {
+		int [] digits;
+		digits = new int [7];
+        
+		digits[0]=3;
+		digits[1]=7;
+		digits[2]=6;
+		digits[3]=5;
+		digits[4]=8;
+		digits[5]=2;
+		digits[6]=23;
+		
+		for (int i=0; i<=6; i++);
+		System.out.println(digits);
+	}
+
+}
